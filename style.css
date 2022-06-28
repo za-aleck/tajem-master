@@ -143,6 +143,7 @@
       background: #372F59FF url(img/agency-img.jpg)center no-repeat;
       background-size: cover;
       position: relative;
+      min-height: 370px;
   }
 
   .agency__fon {
@@ -1302,6 +1303,10 @@
   }
 
   @media screen and (max-width: 576px) {
+    /* agency=======*/
+     .agency {
+      min-height: 320px;
+  }
 
       /*header=============*/
       .menu__link {
